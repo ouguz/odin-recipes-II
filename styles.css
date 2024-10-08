@@ -1,18 +1,32 @@
-* {
-    text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .odin-title {
     background-color: #FFD09B;
     color: #1E3E62;
+    text-align: center;
 }
 
 #odin-logo {
+    display: block;
     height: 400px;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .recipes {
-    list-style-type:circle;
+    list-style-type: none;
     background-color: #FFD09B;
+}
+
+li {
+    width: 200px;
+    margin: auto;
+    padding: 2px;
 }
